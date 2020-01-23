@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-09T19:31:10 EST" name="Suite" finished-at="2020-01-09T19:31:10 EST" duration-ms="241">
+    <groups>
+    </groups>
+    <test started-at="2020-01-09T19:31:10 EST" name="Mobile Test" finished-at="2020-01-09T19:31:10 EST" duration-ms="126">
+      <class name="google.com.UI_Test">
+        <test-method signature="buttontest()[pri:0, instance:google.com.UI_Test@22f31dec]" started-at="2020-01-09T19:31:10 EST" name="buttontest" finished-at="2020-01-09T19:31:10 EST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttontest -->
+        <test-method signature="contact()[pri:0, instance:google.com.UI_Test@22f31dec]" started-at="2020-01-09T19:31:10 EST" name="contact" finished-at="2020-01-09T19:31:10 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method signature="menutest(java.lang.String, java.lang.String)[pri:0, instance:google.com.UI_Test@22f31dec]" started-at="2020-01-09T19:31:10 EST" name="menutest" finished-at="2020-01-09T19:31:10 EST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fahmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menutest -->
+      </class> <!-- google.com.UI_Test -->
+    </test> <!-- Mobile Test -->
+    <test started-at="2020-01-09T19:31:10 EST" name="Web Test" finished-at="2020-01-09T19:31:10 EST" duration-ms="19">
+      <class name="google.com.login_Test">
+        <test-method is-config="true" signature="b4test()[pri:0, instance:google.com.login_Test@1a20270e]" started-at="2020-01-09T19:31:10 EST" name="b4test" finished-at="2020-01-09T19:31:10 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4test -->
+        <test-method signature="failedloggin(java.lang.String)[pri:0, instance:google.com.login_Test@1a20270e]" started-at="2020-01-09T19:31:10 EST" name="failedloggin" finished-at="2020-01-09T19:31:10 EST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedloggin -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:google.com.login_Test@1a20270e]" started-at="2020-01-09T19:31:10 EST" name="aftersuit" finished-at="2020-01-09T19:31:10 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- google.com.login_Test -->
+      <class name="google.com.UI_Test">
+        <test-method is-config="true" signature="b4suite()[pri:0, instance:google.com.UI_Test@22f31dec]" started-at="2020-01-09T19:31:10 EST" name="b4suite" finished-at="2020-01-09T19:31:10 EST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4suite -->
+      </class> <!-- google.com.UI_Test -->
+    </test> <!-- Web Test -->
+  </suite> <!-- Suite -->
+</testng-results>

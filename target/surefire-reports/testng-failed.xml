@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="google.com.UI_Test">
+        <methods>
+          <include name="b4suite"/>
+          <include name="menutest"/>
+        </methods>
+      </class> <!-- google.com.UI_Test -->
+      <class name="google.com.login_Test">
+        <methods>
+          <include name="b4test"/>
+          <include name="failedloggin"/>
+          <include name="aftersuit"/>
+        </methods>
+      </class> <!-- google.com.login_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
